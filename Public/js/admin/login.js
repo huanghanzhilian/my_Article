@@ -4,6 +4,8 @@
  */
 var login = {
     check : function() {
+        alert(1)
+        return
         // 获取登录页面中的用户名 和 密码
         var username = $('input[name="username"]').val();
         var password = $('input[name="password"]').val();
