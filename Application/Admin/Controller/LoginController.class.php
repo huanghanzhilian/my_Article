@@ -14,8 +14,11 @@ class LoginController extends Controller {
     	if(!trim($password)){
     		return show(0,'密码不能为空');
     	}
-    	/*echo trim("a  c s");
-    	print_r($_POST);*/
+    	/*print_r($_POST);*/
+
+        $ret = D('Admin')->getAdminByUsername($username);
+
+        print_r($ret);
     }
     public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";
