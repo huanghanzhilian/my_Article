@@ -10,9 +10,11 @@ var login = {
 
         if (!username) {
             dialog.error('用户名不能为空');
+            return;
         }
         if (!password) {
             dialog.error('密码不能为空');
+            return;
         }
 
         var url = "/admin.php?c=login&a=check";

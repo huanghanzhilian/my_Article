@@ -9,16 +9,17 @@ class LoginController extends Controller {
     	$username=$_POST['username'];
     	$password=$_POST['password'];
     	if(!trim($username)){
-    		return show(0,'用户名不能为空');
+    		return show(0,'名不能为空');
     	}
     	if(!trim($password)){
-    		return show(0,'密码不能为空');
+    		return show(0,'密码是空的');
     	}
     	/*print_r($_POST);*/
 
         $ret = D('Admin')->getAdminByUsername($username);
-
-        print_r($ret);
+        if(!$ret){
+            return show(0,'该用户不存在');
+        }
     }
     public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";

@@ -202,3 +202,45 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
 ERR: 无法加载模块:Signin
 
+[ 2017-10-14T09:13:04+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:15:45+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:17:58+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:19:00+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:19:33+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:20:54+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Signin
+
+[ 2017-10-14T09:22:27+08:00 ] 127.0.0.1 /signin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011963s ]
+ERR: 无法加载模块:Signin
+
