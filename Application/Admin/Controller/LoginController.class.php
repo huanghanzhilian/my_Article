@@ -34,5 +34,6 @@ class LoginController extends Controller {
     }
     public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";
+        echo "你好";
     }
 }

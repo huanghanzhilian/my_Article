@@ -406,3 +406,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
 ERR: 无法加载模块:Signin
 
+[ 2017-10-14T17:55:24+08:00 ] ::1 /testThinkphp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+ERR: 无法加载模块:TestThinkphp
+
