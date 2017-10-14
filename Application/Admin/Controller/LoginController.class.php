@@ -3,6 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 class LoginController extends Controller {
     public function index(){
+        //echo md5(123);
         $this->display();
     }
     public function check(){
@@ -17,9 +18,19 @@ class LoginController extends Controller {
     	/*print_r($_POST);*/
 
         $ret = D('Admin')->getAdminByUsername($username);
+        //print_r($ret);
         if(!$ret){
             return show(0,'该用户不存在');
         }
+
+        if($ret['password'] != getMd5Password($password)) {
+            return show(0,'密码错误');
+        }
+
+        D("Admin")->updateByAdminId($ret['admin_id'],array('lastlogintime'=>time()));
+
+        session('adminUser', $ret);
+        return show(1,'登录成功');
     }
     public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";
