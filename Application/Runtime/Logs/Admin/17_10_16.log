@@ -605,3 +605,13 @@ SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0424s ]
 SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
 SQL: UPDATE `cms_admin` SET `lastlogintime`='1508101573' WHERE ( admin_id=1 ) [ RunTime:0.0004s ]
 
+[ 2017-10-16T05:10:09+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0886s ]
+SQL: UPDATE `cms_menu` SET `name`='ss',`type`='1',`m`='admin',`c`='menu',`f`='index',`status`='1' WHERE ( menu_id=1 ) [ RunTime:0.0005s ]
+

@@ -3,7 +3,6 @@ namespace Admin\Controller;
 use Think\Controller;
 class LoginController extends Controller {
     public function index(){
-        //echo md5(123);
         $this->display();
     }
     public function test(){
