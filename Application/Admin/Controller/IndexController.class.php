@@ -6,7 +6,8 @@ namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends CommonController {
     public function index(){
-        print_r($_SESSION['adminUser']);
+        //print_r($_SESSION['adminUser']);
+        //print_r($_COOKIE);
         $news = D('News')->maxcount();
         $newscount = D('News')->getNewsCount(array('status'=>1));
         $positionCount = D('Position')->getCount(array('status'=>1));

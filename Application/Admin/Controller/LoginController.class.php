@@ -6,6 +6,10 @@ class LoginController extends Controller {
         //echo md5(123);
         $this->display();
     }
+    public function test(){
+        echo C('URL_MODEL'),'<br/>';
+        echo U('login/index', array('id'=>1), 'html', true),'<br/>';
+    }
     public function check(){
     	$username=$_POST['username'];
     	$password=$_POST['password'];
@@ -32,8 +36,8 @@ class LoginController extends Controller {
         session('adminUser', $ret);
         return show(1,'登录成功');
     }
-    public function tets(){
+    /*public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";
         echo "你好";
-    }
+    }*/
 }
