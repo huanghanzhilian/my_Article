@@ -50,6 +50,7 @@ function showKind($status,$data) {
     }
     exit(json_encode(array('error'=>1,'message'=>'上传失败')));
 }
+//获取用户登入名称
 function getLoginUsername() {
     return $_SESSION['adminUser']['username'] ? $_SESSION['adminUser']['username']: '';
 }

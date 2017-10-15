@@ -36,6 +36,10 @@ class LoginController extends Controller {
         session('adminUser', $ret);
         return show(1,'登录成功');
     }
+    public function loginout() {
+        session('adminUser', null);
+        $this->redirect('/admin.php?c=login');
+    }
     /*public function tets(){
         echo "http://localhost/my_Article/index.php?m=home&c=index&a=add";
         echo "你好";

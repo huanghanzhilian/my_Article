@@ -15,3 +15,9 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006657s ]
 INFO: [ app_end ] --END-- [ RunTime:0.006781s ]
 
+[ 2017-10-16T05:06:23+08:00 ] 127.0.0.1 /index.php?c=detail&id=21
+ERR: 无法加载控制器:Detail
+
+[ 2017-10-16T05:06:39+08:00 ] 127.0.0.1 /index.php?c=detail&a=view&id=23
+ERR: 无法加载控制器:Detail
+
