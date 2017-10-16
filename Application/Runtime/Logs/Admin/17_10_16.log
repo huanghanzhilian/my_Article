@@ -615,3 +615,63 @@ NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible
 SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0886s ]
 SQL: UPDATE `cms_menu` SET `name`='ss',`type`='1',`m`='admin',`c`='menu',`f`='index',`status`='1' WHERE ( menu_id=1 ) [ RunTime:0.0005s ]
 
+[ 2017-10-16T09:23:25+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:23:27+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:23:29+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:23:29+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:23:46+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:24:49+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'imooc_singcms'
+
+[ 2017-10-16T09:28:40+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1508117320' WHERE ( admin_id=1 ) [ RunTime:0.0002s ]
+
+[ 2017-10-16T09:31:07+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1508117467' WHERE ( admin_id=1 ) [ RunTime:0.0002s ]
+
+[ 2017-10-16T12:25:48+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1508127948' WHERE ( admin_id=1 ) [ RunTime:0.0006s ]
+
