@@ -1,0 +1,410 @@
+[ 2017-10-18T17:29:06+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1508318946' WHERE ( admin_id=1 ) [ RunTime:0.0263s ]
+
+[ 2017-10-18T17:30:12+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: UPDATE `cms_menu` SET `name`='菜单管理',`type`='1',`m`='admin',`c`='menu',`f`='index',`status`='1' WHERE ( menu_id=1 ) [ RunTime:0.0003s ]
+
+[ 2017-10-18T17:31:33+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: UPDATE `cms_menu` SET `name`='内容',`type`='1',`m`='admin',`c`='content',`f`='index',`status`='1' WHERE ( menu_id=6 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:31:57+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0087s ]
+SQL: UPDATE `cms_menu` SET `name`='推荐位',`type`='1',`m`='admin',`c`='position',`f`='index',`status`='1' WHERE ( menu_id=9 ) [ RunTime:0.0003s ]
+
+[ 2017-10-18T17:32:31+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: UPDATE `cms_menu` SET `name`='推荐位内容',`type`='1',`m`='admin',`c`='positioncontent',`f`='index',`status`='1' WHERE ( menu_id=10 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:32:53+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0102s ]
+SQL: UPDATE `cms_menu` SET `name`='用户管理',`type`='1',`m`='admin',`c`='admin',`f`='index',`status`='1' WHERE ( menu_id=13 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:33:21+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0109s ]
+SQL: UPDATE `cms_menu` SET `name`='基本配置',`type`='1',`m`='admin',`c`='basic',`f`='index',`status`='1' WHERE ( menu_id=11 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:33:49+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0081s ]
+SQL: UPDATE `cms_menu` SET `name`='文章管理',`type`='1',`m`='admin',`c`='content',`f`='index',`status`='1' WHERE ( menu_id=6 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:33:59+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0086s ]
+SQL: UPDATE `cms_news` SET `listorder`='10' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='2' WHERE ( news_id=21 ) [ RunTime:0.0001s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=24 ) [ RunTime:0.0001s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=22 ) [ RunTime:0.0001s ]
+
+[ 2017-10-18T17:34:49+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+
+[ 2017-10-18T17:34:59+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0093s ]
+SQL: UPDATE `cms_news` SET `title`='非官方',`small_title`='是多少',`thumb`='/upload/2016/03/13/56e51cbd34470.png',`title_font_color`='',`catid`='3',`description`='颠三倒四',`keywords`='水水' WHERE ( news_id=23 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0055s ]
+SQL: UPDATE `cms_news_content` SET `content`='撒大苏打撒
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:37:26+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0142s ]
+SQL: UPDATE `cms_menu` SET `name`='打算',`type`='0',`m`='home',`c`='cat',`f`='index',`status`='1' WHERE ( menu_id=12 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:37:36+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0109s ]
+SQL: UPDATE `cms_menu` SET `name`='城市得出',`type`='0',`m`='home',`c`='cat',`f`='index',`status`='1' WHERE ( menu_id=8 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:37:48+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0078s ]
+SQL: UPDATE `cms_menu` SET `name`='成都市',`type`='0',`m`='home',`c`='cat',`f`='index',`status`='1' WHERE ( menu_id=3 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:40:51+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0080s ]
+SQL: UPDATE `cms_news` SET `title`='非官方',`small_title`='是多少',`thumb`='/upload/2016/03/13/56e51cbd34470.png',`title_font_color`='',`catid`='3',`description`='颠三倒四',`keywords`='水水' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0081s ]
+SQL: UPDATE `cms_news_content` SET `content`='撒大苏打撒
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;embed src=&quot;https://www.youtube.com/watch?v=9ELvwUjhVLc&quot; type=&quot;video/x-ms-asf-plugin&quot; width=&quot;550&quot; height=&quot;400&quot; autostart=&quot;true&quot; loop=&quot;true&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://static.samured.com/assets/images/video/cover/oJLtHxgJXT4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:42:36+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0089s ]
+SQL: UPDATE `cms_news` SET `title`='有了央企、500强打call，阿里云离全球两极还远吗？',`small_title`='有了央企、500强打call，阿里云离全球两极还远吗？',`thumb`='/upload/2016/03/13/56e519a185c93.png',`title_font_color`='',`catid`='12',`description`='sdas',`keywords`='sadsa' WHERE ( news_id=21 ) [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0055s ]
+SQL: UPDATE `cms_news_content` SET `content`='&lt;p&gt;
+	&lt;span style=&quot;font-family:\'Microsoft YaHei\', u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;font-size:16px;line-height:32px;&quot;&gt;
+	&lt;div class=&quot;img-container&quot; style=&quot;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		&lt;img class=&quot;large&quot; src=&quot;https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3223570074,3962214699&amp;amp;fm=173&amp;amp;s=A4584A2302220EBA581CA58301008082&amp;amp;w=600&amp;amp;h=433&amp;amp;img.JPEG&quot; style=&quot;width:537px;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		Aliware，阿里云互联网中间件，一个拗口生涩的名字，属于云计算的“腰部力量”。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		众安保险，Aliware第一个互联网金融保险客户；
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		中石化，Aliware第一个央企客户，90天上线易派客，交易累计超过902亿；
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		统计显示，数十家央企，三分之一的中国五百强企业，是阿里云客户。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		普罗米修斯带来了火，爱迪生发明了电，詹姆斯·瓦特发明的蒸汽机开启了工业革命，云计算，将如同火、水、电一样，帮助中国以及全球的企业“冲上云霄”，登顶奥林匹斯山。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		上 云
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		客户勃发的需求，让云计算似乎成了真正的卖方市场，“我们没有销售，现在都是客户主动找过来。”阿里云企业业务事业部总经理赵杰辉说。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		纵观阿里云在企业服务级市场的表现，主要有三大特点。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第一，市场占比最高。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		Gartner9月份公布的2016全球云计算市场报告显示，阿里云超过谷歌，跻身3A阵营，并且增速依旧跑赢大市。而在在市场前十位中，阿里云增速达到126%位居第一。同期排在第一的亚马逊AWS增速为45.9%，排在第二的微软为61%。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而企业级市场是阿里云增速最快的板块之一。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第二，行业覆盖广泛。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		来自全球67个国家的6万线下参会用户、遍布全球137个国家的1500万线上观众，让云栖大会成为了全球云计算最大的盛会。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		阿里云企业级服务市场的客户名单在不断加长：12306、中石化、中石油、今日头条、地震局、新华社、微博、大疆、英国沃达丰、新加坡邮政、新加坡最大直播平台Mozat、香港理工、香港帝国金融集团、雀巢、飞利浦、资生堂等。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		官方透露，阿里云互联网中间件(Aliware)目前在阿里巴巴集团内部支撑业务范围达到99%以上，外部客户覆盖了政府、税 务、人社、银行、保险、石油石化、零售快消、汽车制造、互联网平台等众多行业。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第三，深受大客户信赖。在企业级服务市场，阿里云的客户包括数十家央企、三分之一的中国五百强企业。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而阿里云总裁胡晓明认为，“我相信未来的五百强，有80-90%用阿里云，他们在不断地接入，所以目前正在快速的增长过程当中。”
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		阿里云比较早期的央企客户是中石化。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		2015年4月1日，阿里云协助中石化搭建的工业品电商网站“易派客”正式上线。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		作为中石化首个互联网架构的电商平台，易派客从立项到上线仅用时90天，依托阿里云企业级互联网架构，易派客的订单中心、用户中心、支付中心、物流中心、呼叫中心等几大模块都在短期内构建完毕。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		上线120天，就有100余家单位在易派客电商平台上开展采购业务。目前，易派客的累积交易额超过了902亿元。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		8月31日，在金砖国家工商理事会2017年度会议上，五个理事国代表审议通过并共同签署了金砖国家工商理事会2017年度工作报告。易派客被列为金砖国家2017年八项核心成果之一。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		上云，从一种看似可有可无的可选项，变成了代表先进生产力的必选趋势。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		价 值
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		如同钱塘观潮一般蜂拥至云栖大会的CTO、CIO、CEO们，带着焦虑而来，他们期望阿里云能够消解他们的业务痛点和发展焦虑。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		美国国父本杰明·富兰克林说死亡和税收是人生无法避免的2件大事，现在又多了一样：互联网。
+	&lt;/p&gt;
+	&lt;div class=&quot;img-container&quot; style=&quot;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		&lt;img class=&quot;large&quot; src=&quot;https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2677326699,3928852481&amp;amp;fm=173&amp;amp;s=2163F904C40204E4958BE8930300C09F&amp;amp;w=640&amp;amp;h=861&amp;amp;img.JPEG&quot; style=&quot;width:537px;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		当用户24小时在线，没有哪个企业会愚蠢固执的拒绝拥抱互联网，但拥抱的代价也许是自我革命。过去依赖于传统IT设施的企业，在互联网时代遭遇的最大痛点，就是业务不通：在内部，各个子业务单元如同一个个独立的烟囱，彼此隔绝；在外部，企业和客户也处于断路状态，无法互动。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而分布式架构的出现，给了企业一个弯道超车的车道，在去中心化思想下，企业能通过搭建企业级互联网架构，使业务数据化，使所有决策变成数据驱动，决策链更准确高效。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		也曾受困于传统IT架构的阿里巴巴，历经近20年，痛则通，最终沉淀出了分布式架构以及阿里中间件Aliware，可以为企业搭建一个快速、高效的基座平台，让数据流动起来，产生价值，支持业务快速创新，快速复用等。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而那些走在前面的阿里云客户，已经品味到了甘甜的滋味。赵杰辉认为，云计算是公共服务，互联网是基础设施，数据是生产资料，“不管你是公共云、专有云，但这个趋势不会变。”
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		最早的受益者阿里系的兄弟部门，比如天猫，从降低硬件资源开销、减少人力运营成本、支持业务高速发展三个维度综合测算，经济效益巨大。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而对于外部客户而言，阿里云提供的价值，包括但不限于以下几条：
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第一，对于制造业而言，提高效率，降低成本，从制造企业提升为智造企业。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		刚在云栖大会上和阿里云战略签约的长安汽车，基于客户的订单到交付实现全面的数字化，缩短交付时间，可以为长安汽车降低大量成本。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而苏州协鑫光伏则通过阿里云的ET工业大脑，提升了1%的良品率，每年节省上亿成本。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第二，打通内部业务子单元的藩篱。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		阿里云帮助中国联通逐步实现业务创新和转型，结束过去31个省市自治区IT系统“分而治之”的局面，实现公司内部IT系统的横向打通和向云转型，项目的社会和经济价值巨大。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第三，搭建和消费者的实时互动渠道，提升用户体验，实现按需个性化定制。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		通过阿里云Aliware，联通实现对全国7亿号码和3亿成卡大规模号卡的集中管理。营业厅选号难、状态不一致、成功率低等问题将成为过去式，取而代之的是“快”、“准”的用户极致选号体验。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而长安汽车则通过提前洞察消费者偏好，把本来作为选配的全景天窗，修正为标配。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第四，搭建创新业务，拓展业务边界，延长企业服务链条。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		典型案例来自阿里云客户茅台。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		茅台电商技术总监高文立说：“正是因为有了互联网，有了阿里这些技术的沉淀，才使得我们很多业务，原来是不敢想像的，到现在敢于去做。”
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		去年才搭建的“茅台云商”新零售平台，据称今年成交额就要达到80亿元。基于阿里技术的支持，茅台在新零售进行了多方面的尝试，如今前至生产流水线、供应商包材，后至所有经销商、零售终端和消费者信息，以及终端卖出的每一瓶酒的记录都会进入数据库，市场流通的每一瓶都可被追溯。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		这个800年的老字号，头一回离消费者这么近。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第五，转变企业经营思路，实现升级转型。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		相对于友商，阿里创业至今，一直从事的就是商业，脱胎于阿里的阿里云，对商业的理解更为深入。“所以我们卖的不仅仅是产品”，赵杰辉说，还在通过传递理念，推动企业转型升级。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		吉利引入阿里云的弹性计算、企业级互联网中间件(Aliware)、大数据分析等公共云服务，打通消费者与汽车设计、生产、制造、服务之间的信息通道，实现接触、选车、试驾、买车、售后等全客户旅程的业务“在线化”。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		2016年12月28日，吉利官方商城举办了一场秒杀活动，2017台吉利博越在75分钟内全部售罄，成交额达2.6亿元。消费者只需一个账号，就可享受到吉利汽车的个性化定制、在线预约售后、网络呼叫代驾等贴心服务。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		作为世界第一制造业大国，中国制造业是供给侧改革的主战场，而云计算就是从制造通往智造的桥梁。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		展 望
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		作为阿里云的企业级服务市场的掌舵者，事业部总经理赵杰辉总能敏锐捕捉到客户心态的变化，“未来最大的增长，来自于对传统IT的替代”。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而传统企业越来越愿意敞开心态，拥抱云计算了。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		前几年的云栖大会，参会者主要来自互联网公司。今年，传统企业的CIO、CTO、CEO越来越多。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		参会人员对云计算的理解也越来越深刻了。过去，很多企业对云计算持观望态度，企业核心软件不敢上云，把边角碎料的边缘小软件、小应用上云。现在，他们开始认识到，云计算、大数据、人工智能，成为产业升级转型的关键力量，重构商业模式、创造增量价值，打通业务边界，延长产业链条，实时连接消费者，从内到外宛如重生。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		对云计算蓬勃的需求，正是支撑阿里云在企业级市场迅速增长的关键。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		据阿里云副总裁李津预测，三年内，阿里云将成为全球云计算两极，与这个目标呼应，赵杰辉认为，彼时，将有更多世界500强有望成为阿里云客户，而企业级市场对阿里云营收的贡献有望过半。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		当被问到相比于中国其他对手，阿里云的优势何在是，赵杰辉转头说：“我们在国内，没有对手”。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而在全球，阿里云最大的对手是AWS,相比中国，美国具有先发优势，在企业服务市场，阿里云如何pk强敌亚马逊？
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第一，中国市场大，增速快。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		阿里云总裁胡晓明认为，尽管美国的云计算市场比中国有先发优势，“但是中国本身市场的数字化转型的动力和速度，未来要快于美国。所以我还是认为未来的云计算，在全球来看，就是中国和美国的两国之间的竞争。”
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第二，设立达摩院，三年投入1000亿，实现技术超越。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		达摩院院长行癫透露，达摩院的研究是问题导向，阿里云就是其试验基地之一，达摩院未来技术的商业路径出口，就是阿里云平台。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		第三，阿里云的全球化。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		就业务角度而言，迄今为止,阿里云已经在全球14个地域部署了200多个数据中心；就研发体系而言，达摩院将在全球招揽人才。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		而跻身世界500强企业的飞利浦，之所以选择阿里云，据其技术总监王坚强透露，考量原因之一，就是阿里云的全球化正在迅速推进，“在中国以外也有布局”。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;&quot;&gt;
+		传统经济和新经济之间的距离，某种程度上，就是传统IT架构和云计算、互联网、大数据的距离，而阿里云为代表的云计算，就是连接天堑变通途的超级桥梁，这是通往新经济大陆的原点。
+	&lt;/p&gt;
+&lt;/span&gt;
+&lt;/p&gt;' WHERE ( news_id=21 ) [ RunTime:0.0007s ]
+
+[ 2017-10-18T17:45:03+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
+[ 2017-10-18T17:45:07+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
+[ 2017-10-18T17:45:15+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
+[ 2017-10-18T17:46:02+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
+[ 2017-10-18T17:46:04+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
+[ 2017-10-18T17:46:14+08:00 ] 127.0.0.1 /admin.php?c=cat
+ERR: 无法加载控制器:Cat
+
