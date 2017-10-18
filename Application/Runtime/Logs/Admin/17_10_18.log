@@ -408,3 +408,11 @@ ERR: 无法加载控制器:Cat
 [ 2017-10-18T17:46:14+08:00 ] 127.0.0.1 /admin.php?c=cat
 ERR: 无法加载控制器:Cat
 
+[ 2017-10-18T23:35:00+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0742s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1508340900' WHERE ( admin_id=1 ) [ RunTime:0.0005s ]
+
