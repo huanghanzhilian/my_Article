@@ -1,0 +1,25 @@
+[ 2017-10-29T21:22:51+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.1433s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="asmin" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-10-29T21:22:59+08:00 ] 127.0.0.1 /admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1509283379' WHERE ( admin_id=1 ) [ RunTime:0.0455s ]
+
+[ 2017-10-29T21:23:13+08:00 ] 127.0.0.1 /admin.php?c=menu&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with that of Admin\Controller\CommonController::setStatus() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with that of Admin\Controller\CommonController::listorder() D:\phpStudy\WWW\my_Article\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0336s ]
+SQL: UPDATE `cms_menu` SET `name`='ll',`type`='1',`m`='admin',`c`='content',`f`='index',`status`='1' WHERE ( menu_id=6 ) [ RunTime:0.0006s ]
+
