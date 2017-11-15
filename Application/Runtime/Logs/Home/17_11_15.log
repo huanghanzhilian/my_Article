@@ -1,0 +1,36 @@
+[ 2017-11-15T23:05:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\my_Article\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.1207s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','23','22')  [ RunTime:0.0007s ]
+
+[ 2017-11-15T23:05:50+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\my_Article\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','23','22')  [ RunTime:0.0006s ]
+
+[ 2017-11-15T23:05:53+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\my_Article\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0815s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','23','22')  [ RunTime:0.0006s ]
+
+[ 2017-11-15T23:05:54+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() D:\phpStudy\WWW\my_Article\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() D:\phpStudy\WWW\my_Article\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','23','22')  [ RunTime:0.0006s ]
+
